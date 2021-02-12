@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h2>Calculator</h2>
+    <div class="card">
+        <div class="cal_head">
+            <input type="text" id="cal_head_id" maxlength="10">
+        </div>
+        <div class="card_body">
+            <input type="button" class="btn" value="C" onclick="clearFunction()">
+            <input type="button" class="btn" id="right_button_style" value="DEL" onclick="delectFunction()">
+            <input type="button" class="btn" id="right_button_style" value="%"  onclick="insertValue('%')">
+            <input type="button" class="btn" id="right_button_style" value="/"  onclick="insertValue('/')">
+        </div>
+          <div class="card_body">
+            <input type="button" class="btn" value="7" onclick="insertValue(7)">
+            <input type="button" class="btn" value="8" onclick="insertValue(8)">
+            <input type="button" class="btn" value="9" onclick="insertValue(9)">
+            <input type="button" class="btn" id="right_button_style" value="X"  onclick="insertValue('*')">
+        </div>
+          <div class="card_body">
+            <input type="button" class="btn" value="4" onclick="insertValue(4)">
+            <input type="button" class="btn" value="5" onclick="insertValue(5)">
+            <input type="button" class="btn" value="6" onclick="insertValue(6)">
+            <input type="button" class="btn" id="right_button_style" value="-"  onclick="insertValue('-')">
+        </div>
+          <div class="card_body">
+            <input type="button" class="btn" value="1" onclick="insertValue(1)">
+            <input type="button" class="btn" value="2" onclick="insertValue(2)">
+            <input type="button" class="btn" value="3" onclick="insertValue(3)">
+            <input type="button" class="btn" id="right_button_style" value= +  onclick="insertValue('+')">
+        </div>
+          <div class="card_body">
+            <input type="button" class="btn" value="0"  onclick="insertValue(0)">
+            <input type="button" class="btn" value="."  onclick="insertValue('.')">
+            <input type="button" class="btn" value="Ans" onclick="ansFunction()">
+            <input type="button" class="btn" value="=" style="background-color: #ffbc00a8;"
+            onclick= "finalResult()">
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+</body>
+</html>

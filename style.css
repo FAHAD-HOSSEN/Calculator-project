@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+h2 {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}
+.card {
+    width: 320px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 4px 9px 0px rgb(0 0 0 / 35%);
+    margin-top: 27px;
+    transition: all .3s;
+    font-size: 0px;
+}
+.card:hover {
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 48%);
+}
+input#cal_head_id {
+    width: 307px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    letter-spacing: 2px;
+    padding: 0 4px;
+    border: 3px solid #bf31d087;
+    background-color: #16c6bc59;
+}
+input.btn {
+    width: 80px;
+    height: 60px;
+    background: #3ebed2;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10%;
+    transition: all .2s;
+    border-color: #0b090a;
+}
+input.btn:hover {
+    background: pink;
+    transform: scale(1.05);
+}
+#right_button_style{
+    background-color: #dd37d07d;
+}
